@@ -1,0 +1,286 @@
+.custumer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+.review-img{
+    width: 451px;
+    height: 388px;
+background: url("./../assets/profile1.png");
+border-radius: 24px;
+}
+.review-img img{
+    height: 388px;
+}
+.stats{
+    position: relative;
+    width: 251px;
+    height: 388px;
+    left: 147px;
+    top: 12rem;
+}
+.review-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 56px;    
+}
+.review-discription{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+
+}
+.review-discription h6{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 56px;
+/* or 156% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.custumer-wrap{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.review-list{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 493px;
+height: 159px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.review-list ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.li-img{
+    display: flex;
+    gap: 2rem;
+}
+.review-list li{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+display: flex;
+align-items: start;
+width: 100%;
+height: 100%;
+
+color: #000000;
+}
+.disc-btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.disc-btn button{
+    padding: 16px 56px;
+gap: 8px;
+
+width: 210px;
+height: 60px;
+
+/* Dark Blue */
+
+background: #0A2640;
+/* Dark Blue */
+
+border: 2px solid #0A2640;
+border-radius: 56px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.review-discription2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    
+ 
+    width: 493px;
+    height: 363px;
+    margin-top: 20rem;
+
+}
+.review-discription2 h6{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 56px;
+/* or 156% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.li-img2{
+    display: flex;
+    background-color: #0A2640;
+    width: 500px;
+height: 68px;
+box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+gap: 1rem;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+.li-img2 img{
+    width: 28px;
+height: 28px;
+margin-left: 25px;
+
+}
+.li-img3{
+    width: 500px;
+    height: 68px;
+display: flex;
+gap: 1rem;
+align-items: center;
+background: #FFFFFF;
+box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+
+}
+.li-img3 img{
+    margin-left: 25px;
+}
+.review-img-2{
+
+background: url("./../assets/Rectangle\ 1270\ \(3\).png");
+border-radius: 24px;
+width: 444px;
+height: 510px;
+margin-top: 37.1%;
+
+}
+.stats2 {
+    position: relative;
+    width: 251px;
+    height: 388px;
+    left: 52px;
+    top: 17rem;
+}
+@media (max-width: 768px) {
+.custumer-wrap{
+    flex-direction: column;
+}
+.review-img {
+    width: 356px;
+    height: 377px;
+
+}
+.review-img-2{
+    width: 356px;
+height: 100%;
+margin-top: 87%;
+}
+.stats{
+    left: 75px;
+}
+.review-discription{
+    margin-top: 10rem !important;
+    width: 350px;
+}
+.review-list{
+    width: 350px;
+    height: 100%;
+}
+.review-discription2{
+    width: 350px;
+    
+
+}
+.review-list li{
+    line-height: 21px;
+}
+.li-img img{
+    width: 36px;
+    height: 36px;
+}
+}

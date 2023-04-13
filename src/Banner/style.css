@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner-background{
+    width: 100%;
+    height: 800px;
+    left: 0;
+    right: 0;
+    background: #0A2640;
+  
+}
+.banner-content-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    
+    width: 100%;
+    height: 100%;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.content-wrap-head{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width:50%;
+
+height: 100%;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.content-head{
+    display: flex;
+align-items: center;
+
+width: 100%;
+align-items: center;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.content-head h1{
+    /* Headings/Text XXL */
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+/* or 150% */
+
+
+
+color: #FFFFFF;
+}
+.content-para{
+    width: 100%;
+ 
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.content-para p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+/* Light Grey */
+
+color: #F1F1F1;
+}
+.content-btn-wrap{
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 458px;
+height: 60px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.btn-1{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+.btn-p{
+    padding: 16px 56px;
+gap: 8px;
+
+width: 247px;
+height: 60px;
+
+/* Green */
+
+background: #65E4A3;
+border: 2px solid #69E6A6;
+border-radius: 56px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+display: flex;
+align-items:center;
+
+/* Dark Blue */
+
+color: #0A2640;
+}
+.btn-e{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 56px;
+gap: 8px;
+
+width: 187px;
+height: 60px;
+
+border: 2px solid #FFFFFF;
+border-radius: 56px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.content-wrap-img{
+    width: 100%;
+    height: 100%;
+    flex: none;
+order: 0;
+flex-grow: 0;   
+}
+.content-wrap-img .img-1{
+    width: 100%;
+    height: 100%;
+}
+.content-wrap-img .img-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.ban-img{
+width: 100%;
+height: 100%;
+background-color: #83939e;
+}
+.ban-img img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+.img-4{
+    width: 100%;
+    height: 100%;
+}
+.img-4 img{
+    width: 100%;
+    height: 100%;
+}
+.bannerimages{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: relative;
+    flex-direction: column;
+    padding: 30px;
+}
+.logo-wrap{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+.logo-wrap h6{
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.8788px;
+    line-height: 41px;
+    /* identical to box height, or 130% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.logo-slide{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+
+}
+.overlay-img img{
+    position: absolute;
+    right: 0;
+}
+@media  (max-width: 768px)  {
+    .content-head{
+        width: 80%;
+
+    }
+    .content-head h1{
+        line-height: 28px;
+    }
+    .content-head h1{
+       font-size: 25px;
+       line-height: 24px
+    }
+    .content-wrap-head{
+        width: 100%;
+    }
+    .overlay-img{
+        display: none;
+    }
+    .bannerimages{
+        display: none;
+    }
+    .content-btn-wrap{
+        gap: 10px;
+        width: 200px;
+    }
+    .btn-p {
+        width: 100px;
+        height: 60px;
+        line-height: 12px;
+        font-size: 10px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .btn-e{
+        width: 100px;
+        height: 60px;
+        line-height: 12px;
+        font-size: 10px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-slide{
+        display: none;
+    }
+
+}
