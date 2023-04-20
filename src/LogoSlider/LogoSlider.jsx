@@ -44,7 +44,7 @@ const LogoSlide = () => {
         <div className="logo-slide mt-5">
           {logos.map((logo) => (
             <div key={logo.id} className="col col-sm-1">
-              <div className="logo-wrap">
+              <div className="logo-wrap2">
                 <img src={logo.logo} alt="" />
                 <h6>{logo.name}</h6>
               </div>
