@@ -16,7 +16,7 @@ export const Custumer = () => {
     <div className="container">
         <div className="row">
         <div className="custumer-wrap ">
-        <div className="col-md-6 col-sm-12 col-lg-6">
+       <div className="col-md-6 col-sm-12 col-lg-6">
                 <div className="review-img">
              <div className="stats">
                 <img src={myimg2} alt="" />
@@ -24,7 +24,7 @@ export const Custumer = () => {
                 </div>
 
         </div>
-        <div className="col-md-6 col-sm-12 col-lg-6">
+   <div className="col-md-6 col-sm-12 col-lg-6">
             <div className="container">
                 <div className="review-content">
                     <div className="review-discription mt-5">
@@ -63,7 +63,7 @@ export const Custumer = () => {
 
                 </div>
             </div>
-        </div>
+        </div> 
 
         </div>
         </div>
@@ -74,7 +74,7 @@ export const Custumer = () => {
         <div className="row mt-5">
         <div className="custumer-wrap">
         
-        <div className="col-md-6 col-sm-12 col-lg-6">
+   <div className="col-md-6 col-sm-12 col-lg-6">
         <div className="container">
                 <div className="review-content">
                     <div className="review-discription2">
@@ -107,15 +107,15 @@ export const Custumer = () => {
                         </div>
 
 
-        </div>
-        <div className="col-md-6 col-sm-12 col-lg-6">
+        </div> 
+      <div className="col-md-6 col-sm-12 col-lg-6">
             <div className="review-img-2">
                 <div className="stats2">
                     <img src={stats} alt="" />
                 </div>
 
             </div>
-        </div>
+        </div> 
 
         </div>
         </div>

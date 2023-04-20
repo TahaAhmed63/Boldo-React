@@ -430,13 +430,34 @@ z-index: 999;
 
 }
 
-@media (max-width:600px) {
+@media (max-width:760px) {
     .Blogs-header h2{
         width: 300px;
         font-size: 26px;
         font-weight: 300;
         line-height: 29px;
 
+    }
+    .email-fields{
+        width: 300px;
+    }
+    .email-fields input{
+        width: 9em;
+    }
+    .btn-email button{
+        width: 9em;
+    }
+    .email-header h6{
+        width: 300px;
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .email-fields {
+        width: 248px;
+        flex-direction: column;
+    }
+    .email-fields input {
+        width: 17em;
     }
     .email-header {
         width: 300px;

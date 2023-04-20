@@ -131,26 +131,13 @@ color: #0A2640;
         flex-direction: column;
         margin-top: 25em;
     }
-    .email-fields{
-        width: 300px;
-    }
-    .email-fields input{
-        width: 9em;
-    }
-    .btn-email button{
-        width: 9em;
-    }
-    .email-header h6{
-        width: 300px;
-        font-size: 26px;
-        line-height: 26px;
-    }
+
     .overlayimage img{
         width: 150px;
         height: 150px;
     }
 .footer{
-    width: 400px;
+    width: 80vw;
 }
 
 }
