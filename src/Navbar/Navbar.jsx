@@ -6,15 +6,18 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setMenuOpen(true);
+    setTimeout(() => {
+      setMenuOpen(!menuOpen);
+    }, 100); // adjust delay as needed
   };
-  const closeMenu=()=>{
+  
+  const closeMenu = () => {
     setMenuOpen(false)
   }
 
   return (
     <div className="container-fluid">
-      {(!menuOpen && 
+
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
             <div className="container d-flex w-100 align-item-center mt-5">
@@ -22,9 +25,9 @@ const Navbar = () => {
                 <div className="img-wrap">
                   <img src={mylogo} alt="" />
                 </div>
-                <div className="navbar-brand"> 
+                <div className="navbar-brand">
                   <h6><a href="#">Boldo</a></h6>
-                </div> 
+                </div>
               </div>
               <div className="nav-item-wrap">
                 <ul className='navbar-nav'>
@@ -49,26 +52,13 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-        </nav>) 
-      }
-      {menuOpen && (
-        <>
-          <nav className="navbar navbar-expand-lg bg-body-tertiary">
-          <div className="container-fluid">
-            <div className="container d-flex w-100 align-item-center mt-5">
-              <div className="logo-wraper">
-                <div className="img-wrap">
-                  <img src={mylogo} alt="" />
-                </div>
-                <div className="navbar-brand"> 
-                  <h6><a href="#">Boldo</a></h6>
-                </div> 
-              </div>
-              </div>
-              </div>
-              </nav>
+        </nav>
+      
 
-      <div className={`sidebar ${menuOpen ?'show-sidebar' : ''}`}>
+        <>
+   
+
+          <div className={`sidebar ${menuOpen ? 'show-sidebar' : ''}`}>
             <button
               className="close-sidebar-btn"
               type="button"
@@ -84,7 +74,7 @@ const Navbar = () => {
             </ul>
           </div>
         </>
-      )}
+      
     </div>
   )
 };

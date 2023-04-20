@@ -242,5 +242,47 @@ flex-grow: 0;
         line-height: 32px;
 
     }
+    .card-body{
+        width: 320px;
+
+    }
+  
+    .review-img {
+        width: 300px;
+        background-position-y: 0;
+        background-position-x: 83%;
+    }
+    .stats {
+        left: 70px;
+    }
+    .review-discription {
+        margin-top: 10rem !important;
+        width: 300px;
+    }
+    
+    .review-discription h6{
+      font-size:26px
+}
+    .review-list {
+        width: 300px;
+        height: 100%;
+    }
+    .review-discription2 {
+        width: 300px;
+    }
+    .review-list {
+        width: 300px;
+        height: 100%;
+    }
+    .review-img-2 {
+        width: 300px;
+        height: 100%;
+        margin-top: 86%;
+    }
+    
+.stats2{
+    left: 0px;
+}
+    
     
 }

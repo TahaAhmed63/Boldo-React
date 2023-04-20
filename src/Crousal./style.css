@@ -1,0 +1,160 @@
+.carousel-arrows button{
+  
+        border: none;
+        border-radius: 0;
+        background: none;
+    
+}
+.carousel-arrows{
+width: 100%;
+display: flex;
+justify-content: flex-end;
+position: relative;
+bottom: 38rem;
+gap: 20px;
+}
+.react-multi-carousel-track {
+    gap: 1rem !important;
+}
+.react-multiple-carousel__arrow--right{
+
+}
+.react-multiple-carousel__arrow--left{
+}
+
+.card-wraper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px;
+gap: 40px;
+
+}
+.card-wraper .card{
+    width: 100%;
+
+display: flex;
+background: #FFFFFF;
+box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
+border-radius: 12px;
+padding: 40px;
+
+}
+.card-para{
+ 
+
+/* Paragraphs/Text M */
+
+
+/* Inside auto layout */
+
+display: flex;
+order: 0;
+flex-grow: 0;
+}
+.card-para p{
+    width: 270px;
+    height: 144px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+
+color: #000000;
+
+}
+.icon-img {
+    width: 30%;
+    height: 70%;
+    display: flex;
+}
+.profile-para{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+
+}
+.icon-img img{
+
+}
+.profile-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+order: 1;
+    justify-content: center;
+}
+.card-para2{
+
+width: 270px;
+height: 216px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.card-para2 p{
+    /* Paragraphs/Text M */
+    width: 11em;
+    height: 9em;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+
+}
+@media (max-width: 768px) {
+    .heading-wrap h6{
+        line-height: 22px;
+        font-size: 22px;
+
+    }
+    .heading-wrap{
+        width: 100%;
+    }
+    .card-para p{
+        width: 200px;
+        line-height: 20px;
+        font-size: 23px;
+
+
+    }
+    .icon-img {
+        width: 58%;
+        height: 50%;
+        display: flex;
+    }
+    .card-para2 p{
+        width: 120px;
+        height: 120px;
+        font-size: 18px;
+        line-height: 22px;
+
+
+    }
+    .carousel-arrows{
+        bottom: 35rem;
+    }
+
+}
+@media(max-width:968px){
+
+}
