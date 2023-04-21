@@ -87,6 +87,11 @@ color: #000000;
     overflow: hidden;
     cursor: pointer;
 }
+.css-vubbuv{
+    background: black;
+    border-radius: 50px;
+    color: #fff;
+}
 .css-i4bv87-MuiSvgIcon-root{
     background: black;
     border-radius: 50px;
