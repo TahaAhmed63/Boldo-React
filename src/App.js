@@ -8,7 +8,7 @@ import Blogs from './Blogs/Blogs';
 import { Footer } from './Footer/Footer';
 function App() {
   return (
-    <div className="App">
+ <>
     <Banner/>
    <Services/>
    <Custumer/>  
@@ -16,7 +16,7 @@ function App() {
     <Message/> 
 <Blogs/> 
   <Footer/>  
-    </div>
+  </>
   );
 }
 
