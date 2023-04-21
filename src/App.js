@@ -11,11 +11,11 @@ function App() {
  <>
     <Banner/>
    <Services/>
-   <Custumer/>  
+<Custumer/>   
  <Testimonal/>
-    <Message/> 
-<Blogs/> 
-  <Footer/>  
+ <Message/> 
+ <Blogs/>   
+<Footer/>  
   </>
   );
 }

@@ -19,7 +19,5 @@
    min-height: 100%; /* remove this line to see div.app is no more 100% height */
   }
 @media(max-width:767px){
-  div{
-    width: 80vw;
-  }
+ 
 }

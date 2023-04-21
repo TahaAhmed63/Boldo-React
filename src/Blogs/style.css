@@ -431,6 +431,9 @@ z-index: 999;
 }
 
 @media (max-width:760px) {
+    .Blogs{
+        overflow: hidden;
+    }
     .Blogs-header h2{
         width: 300px;
         font-size: 26px;
@@ -446,6 +449,12 @@ z-index: 999;
     }
     .btn-email button{
         width: 9em;
+    }
+    .author-detail {
+        width: 300px;
+    }
+    .author-name{
+        width: 200px;
     }
     .email-header h6{
         width: 300px;

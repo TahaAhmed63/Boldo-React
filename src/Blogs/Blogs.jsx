@@ -95,7 +95,7 @@ import eclipse from '../assets/Ellipse 9.png'
  <div className="btn-blog">
   <button>Load more</button>
  </div>
-<div className="email-section">
+ <div className="email-section">
   <div className="overlayimage">  
   <img src={eclipse} alt="" />
   </div>
@@ -109,7 +109,7 @@ import eclipse from '../assets/Ellipse 9.png'
   </div>
 </div>
 
- </div> 
+ </div>  
         </div>
         </div>
         </div>
