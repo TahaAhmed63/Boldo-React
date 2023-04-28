@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import "./Navbar.css";
 import mylogo from "../Logo Shape.png";
+import { SlMenu } from "react-icons/sl";
+import { VscChromeClose } from "react-icons/vsc";
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -44,11 +47,16 @@ const Navbar = () => {
                     <a href="#" className="nav-btn">Log in</a>
                   </li>
                 </ul>
-                <button
-                  className="burger-wrap"
-                  type="button"
-                  onClick={toggleMenu}
-                ></button>
+                {
+
+             !menuOpen ?( <div className="burger-wrap">
+                <SlMenu onClick={toggleMenu}/>
+              </div>
+):(
+  <div className="close-sidebar-btn">
+  <VscChromeClose onClick={closeMenu}/>
+  </div>
+)}
               </div>
             </div>
           </div>
@@ -59,13 +67,14 @@ const Navbar = () => {
    
 
           <div className={`sidebar ${menuOpen ? 'show-sidebar' : ''}`}>
-            <button
-              className="close-sidebar-btn"
-              type="button"
-              onClick={closeMenu}
-            >
-              Close Sidebar
-            </button>
+        <div className="side-logo">
+        <div className="img-wrap">
+                  <img src={mylogo} alt="" />
+                </div>
+                <div className="sidebar-brand">
+                  <h6><a href="#">Boldo</a></h6>
+                </div>
+        </div>
             <ul>
               <li key="product"><a href="#">Product</a></li>
               <li key="service"><a href="#">Service</a></li>
